@@ -4,7 +4,7 @@
 }
 .body {
     font-size: 1em;
-    font-family: Calibri;
+    font-family: sans-serif;
     line-height: 1.5;
     color:rgb(30, 30, 32);
 }  
@@ -74,7 +74,6 @@ padding: 10px;
     display: block;
     margin-top: -50px;
     margin-bottom: 50px;
-    /*padding-top: 50px;*/
 }
 .section1 {
     display: flex;
@@ -110,7 +109,7 @@ padding: 10px;
     background-color: #f7f7f7;
     padding: 20px;
 }
-.feedback h2 {
+.content {
     text-align: center;
 }
 .parameters {
@@ -176,12 +175,11 @@ input {
     justify-content: space-around;
     align-items: center;
 }
-.logotype-footer p{
+.logotype-footer p {
     padding: 10px;
 } 
 .doc {
     padding: 30px;
-    /*list-style-position: inside;*/
 }
 .footer_Developer_ul, .footer_doc_ul {
     padding: 10px 30px;

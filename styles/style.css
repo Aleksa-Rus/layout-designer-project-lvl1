@@ -2,6 +2,24 @@
     margin: 0;
     padding: 0;
 }
+.cl {
+    color:#fff;
+}
+.pad10 {
+    padding: 10px;
+}
+.pad1030 {
+    padding: 10px 30px;
+}
+.pad50px0 {
+    padding: 50px 0;
+}
+.pad0px10 {
+    padding: 0 10px;
+}
+.df {
+    display: flex;
+}
 .body {
     font-size: 1em;
     font-family: sans-serif;
@@ -15,21 +33,14 @@ h2 {
     width: 100%;
     min-height: 50px;
     background: #fff;
-    display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.headermain {
-    z-index: 0;
-}
-.header1 {
     position: fixed;
     z-index: 9999;
 }
 .menu {
     display: inline;
     list-style: none;
-    padding: 10px;
 }
 a {
     text-decoration: none;
@@ -42,14 +53,10 @@ a {
 }
 .blok {
     text-align: center;
-    color: #fff;
     height: 300px;
     padding: 50px;
     background: url(../images/banner.png) center no-repeat;
     background-size: cover;
-    background-color: #333333;
-    text-align: center;
-    color: #fff;
 }
 .picture {
     height: 100px;
@@ -66,36 +73,26 @@ h1 {
 border: 1px white solid;
 border-radius: 10px;
 line-height: 50px;
-color: #fff;
-padding: 10px;
 }
 .anchor {
     display: block;
     margin-top: -50px;
     margin-bottom: 50px;
 }
-.section1 {
-    display: flex;
+.section {
     justify-content: space-between;
     max-width: 1000px;
     margin: auto;
 }
 .item {
     width: 300px;
-    padding: 40px 0;
 }
 .wrapper {
     background-color: #f7f7f7;
 }
-.section_description, .section_places {
-    padding: 50px 0;
-    width: 1000px;
-    margin:auto;
-    display: flex;
-    justify-content: space-between;
-}
-.section_places {
+.places {
     flex-direction: row-reverse;
+    
 }
 .moon {
     margin: auto;
@@ -106,26 +103,16 @@ padding: 10px;
 }
 .feedback {
     background-color: #f7f7f7;
-    padding: 20px;
 }
 .content {
     text-align: center;
-}
-.parameters {
-    margin: 10px auto;
-    border: 3px solid #80e2cda1;
-    width: 400px;
-    padding: 10px 0;
 }
 .contacts {
     margin: 20px auto;
     border: 3px solid #80e2cda1;
     width: 400px;
-    padding: 10px 0;
 }
 .rooms {
-    padding: 0 10px;
-    display: flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -142,8 +129,6 @@ select {
     margin: 15px;
 }
 .contacts p {
-    padding: 0 10px;
-    display: flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -157,7 +142,6 @@ input {
     font-weight: bolder;
     border-radius: 10px;
     color: #80e2cd;
-    padding: 0 20px; 
     background: transparent;
     margin: 10px 0;
 }
@@ -168,18 +152,7 @@ input {
 }
 .footer {
     background: #2c3544;
-    color: #fff;
     height: 200px;
-    display: flex;
     justify-content: space-around;
     align-items: center;
-}
-.logotype-footer p {
-    padding: 10px;
-} 
-.doc {
-    padding: 30px;
-}
-.footer_Developer_ul, .footer_doc_ul {
-    padding: 10px 30px;
 }

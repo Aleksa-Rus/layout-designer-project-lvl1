@@ -12,7 +12,7 @@
 <body>
     <div class="body">
         <header>
-            <div class="header1 df">
+            <div class="header b-flex flex-vcenter flex-jc-between">
                 <div>
                     <img class="logotype" src="images/logo.svg" alt="Логотип">
                     Лунное море
@@ -27,15 +27,15 @@
             </div>
         </header>
 
-        <div class="blok cl">
+        <div class="blok-1 t-white">
             <img class="picture" src="images/logo.svg" alt="Логотип">
             <h1>ЖК «Лунное море»</h1>
             <p class="name">Место, откуда не хочется улетать</p>
-            <a href="#form" class="button cl pad10">Забронировать</a>
+            <a href="#form" class="button t-white pad10">Забронировать</a>
         </div>
 
         <main>
-            <div class="section df">
+            <div class="section b-flex flex-jc-between">
                 <div class="item pad50px0">
                     <a id="advantage" class="anchor"></a>
                     <h2>Уникальный вид</h2>
@@ -54,10 +54,10 @@
                 </div>
             </div>
             <a id="description" class="anchor"></a>
-            <div class="wrapper">
-                <div class="section places pad50px0 df">
-                    <div class="pic">
-                        <img class="moon" src="images/moon-1.jpg" alt="moon">
+            <div class="bg-gray">
+                <div class="section pad50px0 b-flex flex-jc-between flex-row-reverse">
+                    <div>
+                        <img class="img-moon" src="images/moon-1.jpg" alt="moon">
                     </div>
                     <div class="text">
                         <h2>О ЖК «Лунное море»</h2>
@@ -69,10 +69,10 @@
                     </div>
                 </div>
             </div>
-            <div class="section pad50px0 df">
+            <div class="section pad50px0 b-flex flex-jc-between">
                 <div>
                     <a id="places" class="anchor"></a>
-                    <img class="moon" src="images/moon-2.jpg" alt="moon">
+                    <img class="img-moon" src="images/moon-2.jpg" alt="moon">
                 </div>
 
                 <div class="text">
@@ -85,13 +85,13 @@
             </div>
         </main>
 
-        <div class="feedback pad10">
+        <div class="pad10 bg-gray">
             <a id="form" class="anchor"></a>
             <h2 class="content">Оставьте заявку сегодня!</h2>
-            <form class="form" action="formdata.php">
-                <fieldset class="contacts pad10">
-                    <legend class="info">Параметры квартиры</legend>
-                    <div class="rooms pad0px10 df">
+            <form action="formdata.php">
+                <fieldset class="fieldset pad10">
+                    <legend class="legend">Параметры квартиры</legend>
+                    <div class="pad0px10 b-flex flex-jc-between flex-vcenter">
                         <label for="rooms">Количество комнат:</label>
                         <select id="rooms">
                             <option disabled>Количество комнат</option>
@@ -100,7 +100,7 @@
                             <option>3</option>
                         </select>
                     </div>
-                    <div class="rooms pad0px10 df">
+                    <div class="pad0px10 b-flex flex-jc-between">
                         <label for="repair">Отделка:</label>
                         <select id="repair">
                             <option>Без отделки</option>
@@ -110,16 +110,16 @@
                     </div>
                 </fieldset>
 
-                <div class="cont">
-                    <fieldset class="contacts pad10">
-                        <legend class="info">Контактная информация</legend>
-                        <p class="pad0px10 df"><label for="name">Имя:</label><input type="text" id="name"
-                                name="username">
+                <div>
+                    <fieldset class="fieldset pad10">
+                        <legend class="legend">Контактная информация</legend>
+                        <p class="pad0px10 b-flex flex-jc-between flex-vcenter"><label for="name">Имя:</label><input type="text"
+                                id="name" name="username">
                         </p>
-                        <p class="pad0px10 df"><label for="phone">Телефон:</label><input type="text" id="phone"
-                                name="phone"></p>
-                        <p class="pad0px10 df"><label for="email">E-mail:</label><input type="email" id="email"
-                                name="email"></p>
+                        <p class="pad0px10 b-flex flex-jc-between flex-vcenter"><label for="phone">Телефон:</label><input type="text"
+                                id="phone" name="phone"></p>
+                        <p class="pad0px10 b-flex flex-jc-between flex-vcenter"><label for="email">E-mail:</label><input type="email"
+                                id="email" name="email"></p>
                     </fieldset>
                 </div>
                 <div class="button2">
@@ -129,8 +129,8 @@
         </div>
 
         <footer>
-            <div class="footer cl df">
-                <div class="logotype-footer">
+            <div class="footer t-white b-flex flex-vcenter">
+                <div>
                     <img class="logotype" src="images/logo.svg" alt="Логотип">
                     Лунное море
                     <p>&copy; 2032 год</p>
@@ -142,7 +142,7 @@
                         <li>Посмотреть на сайте</li>
                     </ul>
                 </div>
-                <div class="Developer">
+                <div>
                     <h3>О застройщике</h3>
                     <ul class="pad1030">
                         <li>Отзывы</li>

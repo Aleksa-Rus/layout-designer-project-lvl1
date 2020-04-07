@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-.cl {
+.t-white {
     color:#fff;
 }
 .pad10 {
@@ -17,11 +17,24 @@
 .pad0px10 {
     padding: 0 10px;
 }
-.df {
+.b-flex {
     display: flex;
+}
+.flex-vcenter {
+    align-items: center;
+}
+.flex-jc-between {
+justify-content: space-between;
+}
+.flex-row-reverse {
+    flex-direction: row-reverse;
+}
+.bg-gray {
+    background-color: #f7f7f7;
 }
 .body {
     font-size: 1em;
+    font-weight: bold;
     font-family: sans-serif;
     line-height: 1.5;
     color:rgb(30, 30, 32);
@@ -29,12 +42,10 @@
 h2 {
     padding-bottom: 20px;
 }
-.header1 {
+.header {
     width: 100%;
     min-height: 50px;
     background: #fff;
-    justify-content: space-between;
-    align-items: center;
     position: fixed;
     z-index: 9999;
 }
@@ -51,7 +62,7 @@ a {
     vertical-align: middle;
     margin: 10px;
 }
-.blok {
+.blok-1 {
     text-align: center;
     height: 300px;
     padding: 50px;
@@ -70,9 +81,9 @@ h1 {
     font-size: 40px;
 }
 .button {
-border: 1px white solid;
-border-radius: 10px;
-line-height: 50px;
+    border: 1px white solid;
+    border-radius: 10px;
+    line-height: 50px;
 }
 .anchor {
     display: block;
@@ -80,41 +91,26 @@ line-height: 50px;
     margin-bottom: 50px;
 }
 .section {
-    justify-content: space-between;
     max-width: 1000px;
     margin: auto;
 }
 .item {
     width: 300px;
 }
-.wrapper {
-    background-color: #f7f7f7;
-}
-.places {
-    flex-direction: row-reverse;
-    
-}
-.moon {
+.img-moon {
     margin: auto;
     height: 230px;
 }
 .text {
     width: 520px;
 }
-.feedback {
-    background-color: #f7f7f7;
-}
 .content {
     text-align: center;
 }
-.contacts {
+.fieldset {
     margin: 20px auto;
-    border: 3px solid #80e2cda1;
+    border: 3px solid #80e2cd;
     width: 400px;
-}
-.rooms {
-    justify-content: space-between;
-    align-items: center;
 }
 select { 
     height: 30px;
@@ -122,23 +118,21 @@ select {
     border-radius: 10px;
     margin: 10px;
 }
-.info {
+.legend {
     font-size: 20px;
-    color: #80e2cda1;
+    color: #80e2cd;
     font-weight: bolder;
     margin: 15px;
 }
-.contacts p {
-    justify-content: space-between;
-    align-items: center;
-}
+
 input {
     border-radius: 10px;
     height: 30px;
     margin: 10px;
-}    
+} 
+
 .button-submit {
-    border: 1px solid #80e2cda1;
+    border: 3px solid #80e2cd;
     font-weight: bolder;
     border-radius: 10px;
     color: #80e2cd;
@@ -154,5 +148,4 @@ input {
     background: #2c3544;
     height: 200px;
     justify-content: space-around;
-    align-items: center;
 }

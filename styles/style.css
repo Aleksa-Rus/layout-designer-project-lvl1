@@ -124,25 +124,20 @@ select {
     font-weight: bolder;
     margin: 15px;
 }
-
 input {
     border-radius: 10px;
     height: 30px;
-    margin: 10px;
+    margin: 10px 0;
 } 
-
 .button-submit {
     border: 3px solid #80e2cd;
     font-weight: bolder;
-    border-radius: 10px;
     color: #80e2cd;
     background: transparent;
-    margin: 10px 0;
 }
 .button2 {
-    width: 400px;
+    width: 426px;
     margin: auto;
-    font-weight: bolder;
 }
 .footer {
     background: #2c3544;

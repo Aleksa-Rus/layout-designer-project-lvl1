@@ -5,6 +5,9 @@
 .t-white {
     color:#fff;
 }
+.t-hex {
+    color: #80e2cd;
+}
 .pad10 {
     padding: 10px;
 }
@@ -32,9 +35,14 @@ justify-content: space-between;
 .bg-gray {
     background-color: #f7f7f7;
 }
-.body {
+.bor-white {
+    border-color: #f7f7f7;
+}
+.bor-hex {
+    border-color: #80e2cd;
+}
+body {
     font-size: 1em;
-    font-weight: bold;
     font-family: sans-serif;
     line-height: 1.5;
     color:rgb(30, 30, 32);
@@ -47,7 +55,9 @@ h2 {
     min-height: 50px;
     background: #fff;
     position: fixed;
-    z-index: 9999;
+    top: 0;
+    padding: 10px 20px;
+    box-sizing: border-box;
 }
 .menu {
     display: inline;
@@ -60,11 +70,10 @@ a {
 .logotype {
     height: 30px;
     vertical-align: middle;
-    margin: 10px;
+    /*margin: 10px;*/
 }
-.blok-1 {
+.banner {
     text-align: center;
-    height: 300px;
     padding: 50px;
     background: url(../images/banner.png) center no-repeat;
     background-size: cover;
@@ -75,27 +84,34 @@ a {
     margin-bottom: 10px;
 }
 p.name {
-    margin: 10px;
+    max-width: 1000px;
+    text-align: center;
+    padding: 0 0 20px;
+    margin: auto;
 }
 h1 {
     font-size: 40px;
 }
-.button {
-    border: 1px white solid;
+.btn {
+    border: 2px solid;
+    font-weight: bolder;
     border-radius: 10px;
-    line-height: 50px;
+    height: 30px;
+    background: transparent;
 }
 .anchor {
     display: block;
     margin-top: -50px;
     margin-bottom: 50px;
 }
-.section {
+section {
     max-width: 1000px;
     margin: auto;
+    background-color: aqua;
 }
 .item {
     width: 300px;
+    background-color: blueviolet;
 }
 .img-moon {
     margin: auto;
@@ -128,12 +144,6 @@ input {
     border-radius: 10px;
     height: 30px;
     margin: 10px 0;
-} 
-.button-submit {
-    border: 3px solid #80e2cd;
-    font-weight: bolder;
-    color: #80e2cd;
-    background: transparent;
 }
 .button2 {
     width: 426px;

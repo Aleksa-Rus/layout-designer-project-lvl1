@@ -14,11 +14,14 @@
 .pad1030 {
     padding: 10px 30px;
 }
-.pad50px0 {
-    padding: 50px 0;
+.pad50px10 {
+    padding: 50px 10px;
 }
 .pad0px10 {
     padding: 0 10px;
+}
+.pad0px50px {
+    padding: 0 50px;
 }
 .b-flex {
     display: flex;
@@ -99,26 +102,30 @@ h1 {
     height: 30px;
     background: transparent;
 }
+.wrepper {
+    max-width: 1000px;
+    margin: auto;
+}
 .anchor {
     display: block;
     margin-top: -50px;
     margin-bottom: 50px;
 }
 section {
-    max-width: 1000px;
-    margin: auto;
-    background-color: aqua;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 50px 0;
 }
 .item {
-    width: 300px;
-    background-color: blueviolet;
+    box-sizing: border-box;
+    width: 333px;
 }
 .img-moon {
-    margin: auto;
-    height: 230px;
+    width: 380px;
 }
 .text {
-    width: 520px;
+    box-sizing: border-box;
+    width: 600px;
 }
 .content {
     text-align: center;
@@ -149,8 +156,12 @@ input {
     width: 426px;
     margin: auto;
 }
-.footer {
+footer {
     background: #2c3544;
-    height: 200px;
-    justify-content: space-around;
+}
+.footer {
+    margin: auto;
+    max-width: 1000px;
+    padding: 50px 10px;
+    justify-content: space-between;
 }

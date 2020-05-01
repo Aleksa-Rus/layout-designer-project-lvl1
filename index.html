@@ -8,8 +8,7 @@
     <title>Проект Лунное море</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
-
-<body> 
+<body>
     <header>
         <div class="header b-flex flex-vcenter flex-jc-between">
             <div>
@@ -27,7 +26,7 @@
     </header>
 
     <main>
-        <div class="banner">
+        <div class="banner pad50px10">
             <img class="picture" src="images/logo.svg" alt="Логотип">
             <div class="w1000px mg-auto t-white">
                 <h1>ЖК «Лунное море»</h1>
@@ -39,7 +38,7 @@
         <section class="pad50px10">
             <a id="advantage" class="anchor"></a>
             <div class="b-flex flex-jc-between w1000px mg-auto">
-                <div class="item"> 
+                <div class="item">
                     <h2>Уникальный вид</h2>
                     <p>Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли наслаждаться
                         метеоритными потоками.</p>
@@ -56,8 +55,8 @@
                 </div>
             </div>
         </section>
-        
-        <section class="pad50px10 bg-gray">
+
+        <section class="bg-gray pad50px10">
             <a id="description" class="anchor"></a>
             <div class="b-flex flex-jc-between flex-row-reverse w1000px mg-auto">
                 <div>
@@ -66,10 +65,10 @@
                 <div class="text">
                     <h2>О ЖК «Лунное море»</h2>
                     <p>Всё чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с
-                            мегаполисом не теряется - современные скоростные трассы позволяют без труда добираться до
-                            столицы и обратно.</p>
+                        мегаполисом не теряется - современные скоростные трассы позволяют без труда добираться до
+                        столицы и обратно.</p>
                     <p>Мы построили наши дома на самом близком к Солнцу спутнике, всего в 380 тысяч километров от
-                            Земли.</p>
+                        Земли.</p>
                 </div>
             </div>
         </section>
@@ -93,48 +92,48 @@
 
     <div class="bg-gray pad50px10">
         <div class="w1000px mg-auto">
-        <a id="form" class="anchor"></a>
-        <h2 class="content">Оставьте заявку сегодня!</h2>
-        <form action="formdata.php">
-            <fieldset class="fieldset pad10">
-                <legend class="legend">Параметры квартиры</legend>
-                <div class="pad0px10 b-flex flex-jc-between flex-vcenter">
-                    <label for="rooms">Количество комнат:</label>
-                    <select id="rooms">
-                        <option disabled>Количество комнат</option>
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                    </select>
-                </div>
-                <div class="pad0px10 b-flex flex-jc-between">
-                    <label for="repair">Отделка:</label>
-                    <select id="repair">
-                        <option>Без отделки</option>
-                        <option>С чистовй отделкой</option>
-                        <option>С черновой отделкой</option>
-                    </select>
-                </div>
-            </fieldset>
-
-            <div>
+            <a id="form" class="anchor"></a>
+            <h2 class="content">Оставьте заявку сегодня!</h2>
+            <form action="formdata.php">
                 <fieldset class="fieldset pad10">
-                    <legend class="legend">Контактная информация</legend>
-                    <p class="pad0px10 b-flex flex-jc-between flex-vcenter"><label for="name">Имя:</label><input
-                            type="text" id="name" name="username">
-                    </p>
-                    <p class="pad0px10 b-flex flex-jc-between flex-vcenter"><label for="phone">Телефон:</label><input
-                            type="text" id="phone" name="phone"></p>
-                    <p class="pad0px10 b-flex flex-jc-between flex-vcenter"><label for="email">E-mail:</label><input
-                            type="email" id="email" name="email"></p>
+                    <legend class="legend">Параметры квартиры</legend>
+                    <div class="pad0px10 b-flex flex-jc-between flex-vcenter">
+                        <label for="rooms">Количество комнат:</label>
+                        <select id="rooms">
+                            <option disabled>Количество комнат</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                        </select>
+                    </div>
+                    <div class="pad0px10 b-flex flex-jc-between">
+                        <label for="repair">Отделка:</label>
+                        <select id="repair">
+                            <option>Без отделки</option>
+                            <option>С чистовй отделкой</option>
+                            <option>С черновой отделкой</option>
+                        </select>
+                    </div>
                 </fieldset>
-            </div>
 
-            <div class="button2">
-                <button class="btn pad0px10 bor-hex t-hex">Отправить</button>
-            </div>
-        </form>
-    </div>
+                <div>
+                    <fieldset class="fieldset pad10">
+                        <legend class="legend">Контактная информация</legend>
+                        <p class="pad0px10 b-flex flex-jc-between flex-vcenter"><label for="name">Имя:</label><input
+                                type="text" id="name" name="username">
+                        </p>
+                        <p class="pad0px10 b-flex flex-jc-between flex-vcenter"><label
+                                for="phone">Телефон:</label><input type="text" id="phone" name="phone"></p>
+                        <p class="pad0px10 b-flex flex-jc-between flex-vcenter"><label for="email">E-mail:</label><input
+                                type="email" id="email" name="email"></p>
+                    </fieldset>
+                </div>
+
+                <div class="button2">
+                    <button class="btn pad0px10 bor-hex t-hex">Отправить</button>
+                </div>
+            </form>
+        </div>
     </div>
 
     <footer class="pad50px10">
@@ -161,4 +160,5 @@
         </div>
     </footer>
 </body>
+
 </html>

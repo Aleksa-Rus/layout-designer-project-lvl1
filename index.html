@@ -8,36 +8,35 @@
     <title>Проект Лунное море</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
-    <header>
-        <div class="header b-flex flex-vcenter flex-jc-between">
-            <div>
-                <img class="logotype" src="images/logo.svg" alt="Логотип">
-                <span class="pad10">Лунное море</span>
-            </div>
-            <nav>
-                <ul>
-                    <li class="menu pad0px10"><a href="#advantage">Преимущества</a></li>
-                    <li class="menu pad0px10"><a href="#description">О ЖК</a></li>
-                    <li class="menu pad0px10"><a href="#places">Места для отдыха</a></li>
-                </ul>
-            </nav>
+    <header class="header b-flex flex-vcenter flex-jc-between">
+        <div>
+            <img class="logotype" src="images/logo.svg" alt="Логотип">
+            <span class="pad10">Лунное море</span>
         </div>
+        <nav>
+            <ul>
+                <li class="menu pad0px10"><a href="#advantage">Преимущества</a></li>
+                <li class="menu pad0px10"><a href="#description">О ЖК</a></li>
+                <li class="menu pad0px10"><a href="#places">Места для отдыха</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <main>
-        <div class="banner pad50px10">
+    <main class="padding-header">
+        <div class="intro">
             <img class="picture" src="images/logo.svg" alt="Логотип">
-            <div class="w1000px mg-auto t-white">
+            <div class="container t-white">
                 <h1>ЖК «Лунное море»</h1>
                 <p class="name">Место, откуда не хочется улетать</p>
                 <a href="#form" class="btn t-white pad10 bor-white">Забронировать</a>
             </div>
         </div>
 
-        <section class="pad50px10">
+        <section>
             <a id="advantage" class="anchor"></a>
-            <div class="b-flex flex-jc-between w1000px mg-auto">
+            <div class="container b-flex flex-jc-between">
                 <div class="item">
                     <h2>Уникальный вид</h2>
                     <p>Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли наслаждаться
@@ -56,9 +55,9 @@
             </div>
         </section>
 
-        <section class="bg-gray pad50px10">
+        <section class="bg-gray">
             <a id="description" class="anchor"></a>
-            <div class="b-flex flex-jc-between flex-row-reverse w1000px mg-auto">
+            <div class="container b-flex flex-jc-between flex-row-reverse">
                 <div>
                     <img class="img-moon" src="images/moon-1.jpg" alt="moon">
                 </div>
@@ -73,9 +72,9 @@
             </div>
         </section>
 
-        <section class="pad50px10">
+        <section>
             <a id="places" class="anchor"></a>
-            <div class="b-flex flex-jc-between w1000px mg-auto">
+            <div class="container b-flex flex-jc-between">
                 <div>
                     <img class="img-moon" src="images/moon-2.jpg" alt="moon">
                 </div>
@@ -90,9 +89,9 @@
         </section>
     </main>
 
-    <div class="bg-gray pad50px10">
-        <div class="w1000px mg-auto">
-            <a id="form" class="anchor"></a>
+    <div class="bg-gray">
+        <a id="form" class="anchor"></a>
+        <div class="container">
             <h2 class="content">Оставьте заявку сегодня!</h2>
             <form action="formdata.php">
                 <fieldset class="fieldset pad10">
@@ -128,15 +127,15 @@
                                 type="email" id="email" name="email"></p>
                     </fieldset>
                 </div>
-               <div class="button2">
-                    <input class="btn pad10 bor-hex t-hex" type="submit" value="Отправить">
-               </div>
+                <div class="button2">
+                    <input class="btn pad10 bor-cyan t-cyan" type="submit" value="Отправить">
+                </div>
             </form>
         </div>
     </div>
 
-    <footer class="pad50px10">
-        <div class="b-flex flex-jc-between t-white w1000px mg-auto">
+    <footer>
+        <div class="container b-flex flex-jc-between t-white">
             <div>
                 <img class="logotype" src="images/logo.svg" alt="Логотип">
                 Лунное море

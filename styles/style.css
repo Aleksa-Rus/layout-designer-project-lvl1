@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 :root {
     --white: #fff;
@@ -8,6 +9,7 @@
     --cyan: #80e2cd;
     --dark: #343a40;
     --header-height: 50px;
+    
 }
 body {
     font-size: 1em;
@@ -23,7 +25,6 @@ h2 {
     position: fixed;
     top: 0;
     padding: 10px 20px;
-    box-sizing: border-box;
     height: var(--header-height);
     width: 100%;
 }
@@ -68,10 +69,16 @@ h1 {
     cursor: pointer;
 }
 .container {
+    width: 100%;
     max-width: 1000px;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 50px 10px;
+    margin: 0 auto;
+    padding: 30px 10px;
+}
+.anchor {
+    display: block;
+    position: absolute;
+    padding-top:  var(--header-height);
+    margin-top: calc(var(--header-height) - 2 * var(--header-height));
 }
 .item {
     width: 300px;
@@ -110,6 +117,7 @@ input {
 .button2 {
     max-width: 426px;
     margin: auto;
+    padding: 0 10px;
 }
 footer {
     background: var(--dark);
@@ -135,31 +143,18 @@ justify-content: space-between;
 .flex-row-reverse {
     flex-direction: row-reverse;
 }
-.mg-auto {
-    margin: 0 auto;
-}
 .pad10 {
     padding: 10px;
 }
 .pad1030 {
     padding: 10px 30px;
 }
-.pad50px10 {
-    padding: 50px 10px;
-
-}
 .pad0px10 {
     padding: 0 10px;
-}
-.pad0px50px {
-    padding: 0 50px;
 }
 .t-white {
     color: var(--white);
 }
 .t-cyan {
     color: var(--cyan);
-}
-.w1000px {
-    width: 1000px;
 }

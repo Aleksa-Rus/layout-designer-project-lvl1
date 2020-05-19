@@ -9,7 +9,6 @@
     --cyan: #80e2cd;
     --dark: #343a40;
     --header-height: 50px;
-    
 }
 body {
     font-size: 1em;
@@ -138,7 +137,7 @@ footer {
     align-items: center;
 }
 .flex-jc-between {
-justify-content: space-between;
+    justify-content: space-between;
 }
 .flex-row-reverse {
     flex-direction: row-reverse;

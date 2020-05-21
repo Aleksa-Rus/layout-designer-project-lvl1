@@ -46,13 +46,9 @@ a {
     text-align: center;
     background: url(../images/banner.png) center no-repeat;
     background-size: cover;
-    padding-top: 50px;
 }
 .picture {
     width: 100px;
-}
-p.name {
-    padding: 0 0 20px;
 }
 h1 {
     font-size: 40px;
@@ -78,9 +74,6 @@ h1 {
     position: absolute;
     padding-top:  var(--header-height);
     margin-top: calc(var(--header-height) - 2 * var(--header-height));
-}
-.item {
-    width: 300px;
 }
 .img-moon {
     width: 350px;
@@ -151,9 +144,15 @@ footer {
 .pad0px10 {
     padding: 0 10px;
 }
+.pad20-b {
+    padding-bottom: 20px;
+}
 .t-white {
     color: var(--white);
 }
 .t-cyan {
     color: var(--cyan);
+}
+.w300px {
+    width: 300px;
 }
